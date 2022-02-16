@@ -1,0 +1,8 @@
+from pygame.locals import USEREVENT
+
+
+DICE_ROLLED = USEREVENT + 1
+
+CUSTOM_EVENTS = {
+    'DICE_ROLLED': DICE_ROLLED
+}
